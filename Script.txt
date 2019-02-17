@@ -1,0 +1,22 @@
+CREATE DATABASE SuperMarket;
+
+USE [SuperMarket]
+GO
+
+/****** Object:  Table [dbo].[PurchaseOrder]    Script Date: 02/17/2019 19:39:27 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[PurchaseOrder](
+	[BranchCode] [int] NOT NULL,
+	[Item] [nvarchar](50) NOT NULL,
+	[Quantity] [nvarchar](50) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+
+
